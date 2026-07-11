@@ -2,25 +2,7 @@
 
 An interactive web application built with React, TypeScript, and Tailwind CSS for visualizing how a Transformer model processes text through self-attention weights and word embeddings.
 
----
-
-## Preview
-
-<div align="center">
-  <img src="./public/screenshot.png" alt="VizLLM Interface Preview" width="100%" style="border-radius: 12px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);" />
-</div>
-
----
-
-## About
-
-**GitHub Description:**
-> An interactive web application for inspecting Transformer self-attention weights and word embeddings with pan-and-zoom 2D PCA plots and token similarity analysis.
-
-**GitHub Topics:**
-`transformers` `nlp` `react` `typescript` `vite` `tailwind-css` `data-visualization` `machine-learning`
-
----
+![VizLLM Preview](public/screenshot.png)
 
 ## Features
 
@@ -41,8 +23,6 @@ An interactive web application built with React, TypeScript, and Tailwind CSS fo
 - **Embedding & Similarity Inspector**
   - Calculates pairwise dot-product cosine similarity between sequence tokens.
   - Displays sample slices of the underlying 768-dimensional vector representation.
-
----
 
 ## Getting Started
 
@@ -73,8 +53,6 @@ An interactive web application built with React, TypeScript, and Tailwind CSS fo
    npm run build
    ```
 
----
-
 ## Tech Stack
 
 - **React 18** + **TypeScript**
@@ -82,8 +60,6 @@ An interactive web application built with React, TypeScript, and Tailwind CSS fo
 - **Tailwind CSS**
 - **Framer Motion**
 - **Lucide React**
-
----
 
 ## License
 
